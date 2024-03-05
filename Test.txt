@@ -1,0 +1,10 @@
+Hello CO224G1
+git init: khởi tạo local repository
+git config --global user.email nguyenhuyhai926@gmail.com
+git config --global user.name huyhai1994
+git add < tên - file> : đẩy file demo.txt vào staging area (vùng nhớ)
+git commit -m "hello git": đưa thay đổi vào local repo, đồng thời lưu trữ lịch sử (tạo 1 snap shot)
+Tạo 1 reposity
+git remote add origin https://github.com/huyhai1994/Demo.git
+git remote : kết nối local repo với remote repo (làm 1 lần)
+git push origin master: đẩy code từ local repo lên remote repo
